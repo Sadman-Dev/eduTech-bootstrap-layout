@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: #1a1a1a;
+    text-underline-offset: 7px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    text-decoration: underline;
+}
+
+/* Hero Slider */
+.carousel-caption {
+    top: 35%;
+}
+.carousel-caption h1{
+    font-weight: 900;
+}
+
+.carousel-inner img{
+    min-height: 80vh;
+}
+
+/* Media query */
+
