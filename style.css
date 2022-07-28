@@ -4,6 +4,11 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.course-area, .register-area, .student-area{
+    margin-top: 130px;
+}
+
 /* Navbar */
 .navbar-light .navbar-nav .nav-link{
     color: #1a1a1a;
@@ -37,9 +42,15 @@ body{
     color: #289BDE;
 }
 
+/* Student Area */
+.student-area p{
+    color: grey;
+}
+
+
 /* Media query */
 @media (max-width: 575.98px) { 
-    .course-heading h1, .course-heading p{
+    .section-heading h1, .section-heading p{
         padding-left: 0;
         padding-right: 0;
     }
@@ -51,14 +62,14 @@ body{
 }
 
 @media (min-width: 767.98px) { 
-    .course-heading h1, .course-heading p{
+    .section-heading h1, .section-heading p{
         padding-left: 0;
         padding-right: 0;
     }
 }
 
 @media (min-width: 992px) { 
-    .course-heading h1, .course-heading p{
+    .section-heading h1, .section-heading p{
     padding-left: 300px;
     padding-right: 300px;
 } 
