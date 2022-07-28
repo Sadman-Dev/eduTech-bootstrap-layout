@@ -5,7 +5,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.course-area, .register-area, .student-area, .faq-area {
+.course-area, .register-area, .student-area, 
+.faq-area, .logos-area, .footer-area {
     margin-top: 130px;
 }
 
@@ -47,7 +48,25 @@ body{
     color: grey;
 }
 
+/* Footer Area  */
+.footer-area{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.footer-area .fa-brands{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.footer-area .fa-facebook {
+    color: #4267B2;
+}
+.footer-area  .fa-twitter{
+    color: #1C9CEB;
+}
 
+.footer-area .fa-instagram{
+    color: #592EBA;
+}
 /* Media query */
 @media (max-width: 575.98px) { 
     .section-heading h1, .section-heading p{
