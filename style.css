@@ -6,7 +6,7 @@ body{
 }
 
 .course-area, .register-area, .student-area, 
-.faq-area, .logos-area, .footer-area {
+.faq-area, .logos-area, .footer-area, .category-area {
     margin-top: 130px;
 }
 
@@ -42,6 +42,12 @@ body{
     font-size: 16px;
     color: #289BDE;
 }
+/* Category Area */
+.category-area a{
+    text-decoration: none;
+    color: #EE3E3C;
+    font-size: 17px;
+}
 
 /* Student Area */
 .student-area p{
@@ -65,7 +71,7 @@ body{
 }
 
 .footer-area .fa-instagram{
-    color: #592EBA;
+    color: #F14F3E;
 }
 /* Media query */
 @media (max-width: 575.98px) { 
