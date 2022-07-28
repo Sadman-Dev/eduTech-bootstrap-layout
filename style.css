@@ -28,5 +28,39 @@ body{
     min-height: 80vh;
 }
 
-/* Media query */
+/* course-area */
+.courses p{
+    font-size: 13px;
+}
+.courses span{
+    font-size: 16px;
+    color: #289BDE;
+}
 
+/* Media query */
+@media (max-width: 575.98px) { 
+    .course-heading h1, .course-heading p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .courses img{
+        width: 100%;
+    }
+     
+}
+
+@media (min-width: 767.98px) { 
+    .course-heading h1, .course-heading p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) { 
+    .course-heading h1, .course-heading p{
+    padding-left: 300px;
+    padding-right: 300px;
+} 
+
+}
