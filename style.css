@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.course-area, .register-area, .student-area{
+.course-area, .register-area, .student-area, .faq-area {
     margin-top: 130px;
 }
 
